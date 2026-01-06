@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery home page</title>
+    <link rel="stylesheet" href="CSS/grocery.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <!--header-->
+     <div class="header1">
+        <div class="head1">
+            <img src="image/logo.png" alt="image">
+        </div>
+        <div class="head2">
+            <div class="head21">
+                <input type="search" placeholder="Search product">
+                <i class="bi bi-search"></i>
+            </div>
+            <div class="head22">
+                <a href="home.html" >Home  </a>
+                <a href="shop.html">Shopping </a>
+                <a href="cate.html">Categories </a>
+                <a href="blog.html">Blogs </a>
+                <a href="contact.html">Contact us </a>
+                <a href="about.html">About us </a>
+            </div>
+        </div>
+
+
+         <a href="#register">
+          <div class="reg">
+            Register
+          </div>
+            </a>
+    
+
+
+        
+</div>
+
+
+
+</header>
+
+
+<!--Login -->
+<div class="login" id="register">
+
+   <div class="log">
+    
+    <div class="loglt" id="lolt">
+        <h2>Register Free!</h2>
+        <input type="text" placeholder="Enter your email">
+        <input type="password" placeholder="Password">
+        <div class="logltin">
+            <button id="btnn">Login</button>
+            <p>Forget Yout Password?</p>
+        </div>
+        <h3>Sign Up Using</h3>
+        <div class="bor">
+            <i class="fa-brands fa-google"style="color: red;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fab fa-facebook-f"style="color: blue;font-size: 30px;"></i>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="bi bi-twitter text-info fs-3"style="color: blue;font-size: 30px;"></i>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+               <i class="fab fa-instagram"style="color: purple;font-size: 30px;"></i>
+          
+        </div>
+        <div class="loglast">
+           <p>Don't have an account?</p> 
+           <a href="#signup">Create New Account</a>
+        </div>
+
+    </div>
+
+<div class="logrt">
+    <img src="image/log.jpg" alt="image">
+</div>
+
+
+
+   </div>
+   </div>
+
+
+
+   <div class="signup" id="signup">
+    <div class="sign">
+        
+        <div class="signlt">
+            <img src="image/sign.png" alt="image">
+        </div>
+        
+        <div class="signrt" id="sigrt" >
+                    <div class="cr" style="font-size: 40px;"><a href="index.html">&times;</a></div>
+            <h3>Sign Up</h3>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password"> <br>
+        <button id="bttn">Sign Up</button>
+        <p>Already Have an account? <a href="#register">Login</a></p>
+       
+        </div>
+    
+    </div>
+
+
+</div>
+
+
+
+
+<script>
+ document.getElementById("btnn").addEventListener("click", function(){
+     const mess = document.getElementById("lolt");
+         mess.textContent = "Login Successfully";
+
+     mess.style.display = "flex";           
+     mess.style.justifyContent = "center"; 
+     mess.style.alignItems = "center"; 
+     mess.style.backgroundColor = "green";
+     mess.style.fontSize = "50px";
+     mess.style.color = "white";
+
+     setTimeout(() => {
+        window.location.href = "home.html";
+    }, 1000);  
+ });
+
+</script>
+
+<!--Hidden signup-->
+
+
+
+
+
+<script>
+ document.getElementById("bttn").addEventListener("click", function() {
+     const messg = document.getElementById("sigrt");
+      messg.textContent = "SignUp Successfully";
+     messg.style.display = "flex";           
+     messg.style.justifyContent = "center"; 
+     messg.style.alignItems = "center"; 
+     messg.style.backgroundColor = "green";
+     messg.style.fontSize = "50px";
+     messg.style.color = "white";
+
+     setTimeout(() => {
+        window.location.href = "home.html"
+    }, 1000);  
+ });
+
+ 
+</script>
+
+
+
+
+
+
+
+<!--home section-->
+
+
+<section class="homeout">
+
+<div class="home">
+<div class="over"></div>
+    <h1>Explore Fresh & Healthy</h1>
+    <h2>Convenience and Trust your way</h2>
+    <p>Your trusted online grocery store for quick, easy, and reliable shopping <br>—freshness delivered within hours.</p>
+
+    <div class="hom1">
+        <p class="chk">Shop Now</p>
+        <p><a href="enquiry.html">Enquiry Furniture</a></p>
+    </div>
+    <div class="hom2">
+        <img src="image/home1.png" alt="image">
+        <div class="cir">+</div>
+        <div>
+            <p><b>4.9k Ratings +</b> <br>
+            Trusted by 80k Customers</p>
+        </div>
+    </div>
+
+
+
+</div>
+
+<h3>Why Choose Us!</h3>
+
+<div class="home1">
+
+    <div class="home1in">
+        <img src="image/ho1.png" alt="image">
+        <p>Fresh & Handpicked</p>
+    </div>
+    <div class="home1in">
+        <img src="image/ho2.jpg" alt="image">
+        <p>Fast & Reliable Delivery</p>
+    </div>
+    <div class="home1in">
+        <img src="image/ho3.png" alt="image">
+        <p>Affordable Prices</p>
+    </div>
+    <div class="home1in">
+        <img src="image/ho4.png" alt="image">
+        <p>Wide Variety</p>
+    </div>
+    <div class="home1in">
+        <img src="image/ho5.png" alt="image">
+        <p>Quality & Trust</p>
+    </div>
+
+</div>
+
+<h3>Categories</h3>
+
+
+<div class="home2">
+
+<div class="home2in">
+    <img src="image/ho11.png" alt="image">
+    <p>Vegetables</p>
+</div>
+<div class="home2in">
+    <img src="image/ho22.png" alt="image">
+    <p>Fresh Fruits</p>
+</div>
+<div class="home2in">
+    <img src="image/ho33.png" alt="image">
+    <p>Milk & Egg</p>
+</div>
+<div class="home2in">
+    <img src="image/ho44.png" alt="image">
+    <p>Dry Fruits</p>
+</div>
+<div class="home2in">
+    <img src="image/ho55.png" alt="image">
+    <p>House hold</p>
+</div>
+
+</div>
+
+<h3>Deals flat 25% off</h3>
+
+<div class="home3">
+    <div class="home3in">
+        <img src="image/fr1.png" alt="image">
+        <p>Fruits Vegetables have 25% OFF</p>
+        <a href="cate.html">Shop Now</a>
+    </div>
+    <div class="home3in">
+        <img src="image/fr2.png" alt="image">
+        <p>Fruits Fruits have 25% OFF</p>
+        <a href="cate.html">Shop Now</a>
+    </div>
+</div>
+
+
+<h3>Featured Products</h3>
+
+<div class="home4">
+
+   <div class="shopin">
+        <img src="image/ve1.png" alt="image">
+        <div class="hea">
+             <span class="like-btn" id="likeBtn">🤍</span>
+            </div> 
+            <div class="off">20% off</div>
+            <div class="shp1">
+                <p class="gre">Fruits Strawberry</p>
+                <p><i class="bi bi-star-fill"></i> 4.5</p>
+            </div>
+            <p>Fresh </p>
+            <p class="gy">500g</p>
+            <div class="shp1">
+                <p><b>$56</b></p>
+                <p class="br">Add <i class="bi bi-cart"></i></p>
+            </div>
+    </div>
+   <div class="shopin">
+        <img src="image/ve2.png" alt="image">
+        <div class="hea">
+             <span class="like-btn" id="likeBtn">🤍</span>
+            </div> 
+            <div class="off">20% off</div>
+            <div class="shp1">
+                <p class="gre">Vegetables</p>
+                <p><i class="bi bi-star-fill"></i> 4.5</p>
+            </div>
+            <p>Fresh Combo</p>
+            <p class="gy">500g</p>
+            <div class="shp1">
+                <p><b>$56</b></p>
+                <p class="br">Add <i class="bi bi-cart"></i></p>
+            </div>
+    </div>
+   <div class="shopin">
+        <img src="image/ve3.png" alt="image">
+        <div class="hea">
+             <span class="like-btn" id="likeBtn">🤍</span>
+            </div> 
+            <div class="off">20% off</div>
+            <div class="shp1">
+                <p class="gre">Fruits</p>
+                <p><i class="bi bi-star-fill"></i> 4.5</p>
+            </div>
+            <p>Fresh Lemon </p>
+            <p class="gy">500g</p>
+            <div class="shp1">
+                <p><b>$56</b></p>
+                <p class="br">Add <i class="bi bi-cart"></i></p>
+            </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<div class="home5">
+
+<div class="home5in">
+    <div class="hoin">
+        <h2>1. Do you offer free delivery?
+</h2>
+        <p>⮟</p>
+    </div>
+    <p>Yes, we offer free standard delivery on all orders above ₹5,000. Express and scheduled delivery options are also available at checkout.</p>
+</div>
+<div class="home5in">
+    <div class="hoin">
+        <h2>2. How long will it take to receive my order?
+</h2>
+        <p>⮟</p>
+    </div>
+    <p>Delivery times vary based on your location and the product availability. Most orders are delivered within 5–10 business days. Custom-made items may take longer.</p>
+</div>
+<div class="home5in">
+    <div class="hoin">
+        <h2>3. Can I return or exchange grocery after purchase?
+</h2>
+        <p>⮟</p>
+    </div>
+    <p>Yes, you can return eligible items within 7 days of delivery. Items must be unused and in original condition. Please check our Return Policy for details.</p>
+</div>
+<div class="home5in">
+    <div class="hoin">
+        <h2>4. How can I contact customer support?
+</h2>
+        <p>⮟</p>
+    </div>
+    <p>You can reach us via live chat, email at support@furnishop.com, or call our helpline at 1800-123-4567 (Mon–Sat, 10 AM – 6 PM).</p>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+
+<footer>
+
+    <div class="footer1">
+        <div class="foot">
+            <img src="image/foot.png" alt="image">
+        </div>
+        <div class="foot1">
+            <div class="foot1in">
+            <div class="foot2">
+                <img src="image/logo.png" alt="image">
+                <p>Follow Us On:</p>
+                <p>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-whatsapp"></i>
+                </p>
+            </div>
+
+            <div class="foot3">
+                <p>Company</p>
+                <p>About Us</p>
+                <p>Blog</p>
+                <p>Contact Us</p>
+                <p>Career</p>
+            </div>
+            <div class="foot3">
+                <p>Customer Servise</p>
+                <p>My Account</p>
+                <p>Track your order</p>
+                <p>Return </p>
+                <p>FAQ</p>
+            </div>
+            <div class="foot3">
+                <p>Our information</p>
+                <p>Privacy</p>
+                <p>User terms& Conditions</p>
+                <p>Return Policy </p>
+            </div>
+            <div class="foot3">
+                <p>Contact info</p>
+                <p>123-456-789 </p>
+                <p>example@gmail.com</p>
+                <p>72,north street </p>
+                <p>Mumbai-001</p>
+            </div>
+
+        </div>
+         <div class="foot4">
+            <p>&copy;2025 My market.All rights reserved</p>
+            <p>Terms & Conditiond | Privacy Policy</p>
+         </div>
+       </div>
+   
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
